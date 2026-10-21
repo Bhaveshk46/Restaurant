@@ -1,0 +1,8 @@
+body {
+    background-image: url("./images/resto.jpg");
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
