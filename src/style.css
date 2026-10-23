@@ -20,6 +20,7 @@ body {
     margin-top: 25px;
     margin-bottom: 12px;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
 }
 
 .subHeading {
@@ -57,7 +58,7 @@ nav button:hover {
 
 #content {
     text-align: center;
-    padding-top: 170px;
+    padding-top: 0;
 }
 
 
@@ -75,7 +76,7 @@ nav button:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 
     position: relative;
-    top: -50px;
+    top: 70px;
 
 }
 
@@ -118,4 +119,68 @@ nav button:hover {
     color: #e8bd79;
     font-weight: bold;
     white-space: nowrap;
+}
+
+.about-section {
+    width: 380px;
+    max-width: 85%;
+    margin: 0 auto 20px;
+    padding: 12px 20px;
+
+    background: rgba(35, 23, 16, 0.88);
+    border: 1px solid #a98252;
+    border-radius: 8px;
+
+    color: #fff5e8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: Georgia, serif;
+
+    position: relative;
+    top: 70px;
+    box-sizing: border-box;
+
+
+}
+.about-section h2 {
+    text-align: center;
+    color: #e8bd79;
+    font-size: 21px;
+    margin: 8px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(232, 189, 121, 0.5);
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 6px 4px;
+    border-bottom: 1px solid rgba(255, 245, 232, 0.12);
+    font-size: 14px;
+}
+
+.schedule time {
+    color: #e8bd79;
+    white-space: nowrap;
+}
+
+
+.contacts {
+    margin-top: 15px;
+}
+
+.contacts div {
+    padding: 4px;
+    font-size: 14px;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+.address div {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 14px;
+    overflow-wrap: anywhere;
 }
