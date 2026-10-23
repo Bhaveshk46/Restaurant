@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     color: #FFF8F0;
 }
+
 .heading {
     font-family: Georgia, serif;
     font-size: 76px;
@@ -32,6 +33,7 @@ body {
     line-height: 1.5;
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -56,4 +58,64 @@ nav button:hover {
 #content {
     text-align: center;
     padding-top: 170px;
+}
+
+
+.menu {
+    width: 420px;
+    max-width: 85%;
+    margin: 30px auto;
+    padding: 25px 30px;
+
+    background: rgba(35, 23, 16, 0.88);
+    border: 1px solid #a98252;
+    border-radius: 8px;
+
+    color: #fff5e8;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+    position: relative;
+    top: -50px;
+
+}
+
+
+.menu-heading {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    text-align: center;
+    color: #e8bd79;
+
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(232, 189, 121, 0.5);
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding: 16px 4px;
+    border-bottom: 1px solid rgba(255, 245, 232, 0.15);
+
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item span:last-child {
+    color: #e8bd79;
+    font-weight: bold;
+    white-space: nowrap;
 }
