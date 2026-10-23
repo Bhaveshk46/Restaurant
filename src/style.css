@@ -1,8 +1,59 @@
 body {
-    background-image: url("./images/resto.jpg");
-    background-size: 100% auto;
-    background-position: top center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
     margin: 0;
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(20, 15, 12, 0.25), rgba(20, 15, 12, 0.25)),
+        url("./images/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFF8F0;
+}
+.heading {
+    font-family: Georgia, serif;
+    font-size: 76px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff5e8;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.subHeading {
+    font-family: Georgia, serif;
+    font-size: clamp(22px, 2.5vw, 34px);
+    font-weight: normal;
+    text-align: center;
+    color: #f0d9b8;
+    margin: 0 auto;
+    padding: 0 20px;
+    line-height: 1.5;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+nav button {
+    background: rgba(40, 28, 20, 0.8);
+    color: white;
+    border: 1px solid #a98252;
+    padding: 10px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: #a98252;
+    color: white;
+}
+
+#content {
+    text-align: center;
+    padding-top: 170px;
 }
